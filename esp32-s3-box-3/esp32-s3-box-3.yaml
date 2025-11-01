@@ -129,8 +129,9 @@ light:
     default_transition_length: 250ms
 
 i2c:
-  scl: GPIO18
-  sda: GPIO8
+  - id: s3_box_i2c
+    scl: GPIO18
+    sda: GPIO8
 
 i2s_audio:
   - id: i2s_audio_bus
