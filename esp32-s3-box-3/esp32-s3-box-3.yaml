@@ -141,12 +141,14 @@ i2s_audio:
 
 audio_adc:
   - platform: es7210
+    i2c_id: s3_box_i2c
     id: es7210_adc
     bits_per_sample: 16bit
     sample_rate: 16000
 
 audio_dac:
   - platform: es8311
+    i2c_id: s3_box_i2c
     id: es8311_dac
     bits_per_sample: 16bit
     sample_rate: 48000
